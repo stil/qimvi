@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Zmiana rozmiaru</string>
+   <string>Image scaling</string>
   </property>
   <property name="modal">
    <bool>true</bool>
@@ -22,7 +22,7 @@
      <item row="0" column="0">
       <widget class="QRadioButton" name="radioButtonPercentageSize">
        <property name="text">
-        <string>Procentowo:</string>
+        <string>Percent:</string>
        </property>
        <property name="checked">
         <bool>true</bool>
@@ -56,7 +56,7 @@
      <item row="1" column="0">
       <widget class="QRadioButton" name="radioButtonAbsoluteSize">
        <property name="text">
-        <string>Rozmiar bezwzględny:</string>
+        <string>Absolute size:</string>
        </property>
       </widget>
      </item>
@@ -65,14 +65,14 @@
        <item row="0" column="0">
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>Szerokość:</string>
+          <string>Width:</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>Wysokość:</string>
+          <string>Height:</string>
          </property>
         </widget>
        </item>
@@ -91,7 +91,7 @@
          <item>
           <widget class="QLabel" name="label_3">
            <property name="text">
-            <string>pikseli</string>
+            <string>pixels</string>
            </property>
           </widget>
          </item>
@@ -112,7 +112,7 @@
          <item>
           <widget class="QLabel" name="label_5">
            <property name="text">
-            <string>pikseli</string>
+            <string>pixels</string>
            </property>
           </widget>
          </item>
@@ -126,7 +126,7 @@
         <bool>false</bool>
        </property>
        <property name="text">
-        <string>Zablokuj proporcje</string>
+        <string>Lock ratio</string>
        </property>
       </widget>
      </item>

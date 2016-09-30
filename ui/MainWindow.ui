@@ -88,7 +88,7 @@
    </property>
    <widget class="QMenu" name="menuPlik">
     <property name="title">
-     <string>Plik</string>
+     <string>File</string>
     </property>
     <addaction name="actionSave"/>
     <addaction name="actionSaveAs"/>
@@ -96,7 +96,7 @@
    </widget>
    <widget class="QMenu" name="menuWidok">
     <property name="title">
-     <string>Widok</string>
+     <string>View</string>
     </property>
     <addaction name="actionZoomIn"/>
     <addaction name="actionZoomOut"/>
@@ -107,7 +107,7 @@
    </widget>
    <widget class="QMenu" name="menuObraz">
     <property name="title">
-     <string>Obraz</string>
+     <string>Image</string>
     </property>
     <addaction name="actionCrop"/>
     <addaction name="actionResize"/>
@@ -119,14 +119,14 @@
    </widget>
    <widget class="QMenu" name="menuEdycja">
     <property name="title">
-     <string>Edycja</string>
+     <string>Edit</string>
     </property>
     <addaction name="actionUndo"/>
     <addaction name="actionRedo"/>
    </widget>
    <widget class="QMenu" name="menuPomoc">
     <property name="title">
-     <string>Pomoc</string>
+     <string>Help</string>
     </property>
     <addaction name="actionAbout"/>
    </widget>
@@ -178,7 +178,7 @@
      <normaloff>:/fugue/fugue-icons/disk--pencil.png</normaloff>:/fugue/fugue-icons/disk--pencil.png</iconset>
    </property>
    <property name="text">
-    <string>Zapisz jako...</string>
+    <string>Save as...</string>
    </property>
   </action>
   <action name="actionQuit">
@@ -187,7 +187,7 @@
      <normaloff>:/fugue/fugue-icons/door.png</normaloff>:/fugue/fugue-icons/door.png</iconset>
    </property>
    <property name="text">
-    <string>Wyjście</string>
+    <string>Exit</string>
    </property>
   </action>
   <action name="actionFitWindow">
@@ -202,7 +202,7 @@
      <normaloff>:/fugue/fugue-icons/layer-resize.png</normaloff>:/fugue/fugue-icons/layer-resize.png</iconset>
    </property>
    <property name="text">
-    <string>Dopasuj do okna</string>
+    <string>Fit preview in window</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+B</string>
@@ -214,7 +214,7 @@
      <normaloff>:/fugue/fugue-icons/layer-resize-actual.png</normaloff>:/fugue/fugue-icons/layer-resize-actual.png</iconset>
    </property>
    <property name="text">
-    <string>Rozmiar rzeczywisty</string>
+    <string>Actual size</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+0</string>
@@ -226,7 +226,7 @@
      <normaloff>:/fugue/fugue-icons/magnifier-zoom-in.png</normaloff>:/fugue/fugue-icons/magnifier-zoom-in.png</iconset>
    </property>
    <property name="text">
-    <string>Powiększ</string>
+    <string>Zoom in</string>
    </property>
    <property name="shortcut">
     <string>Ctrl++</string>
@@ -238,7 +238,7 @@
      <normaloff>:/fugue/fugue-icons/magnifier-zoom-out.png</normaloff>:/fugue/fugue-icons/magnifier-zoom-out.png</iconset>
    </property>
    <property name="text">
-    <string>Zmniejsz</string>
+    <string>Zoom out</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+-</string>
@@ -250,7 +250,7 @@
      <normaloff>:/fugue/fugue-icons/disk.png</normaloff>:/fugue/fugue-icons/disk.png</iconset>
    </property>
    <property name="text">
-    <string>Zapisz</string>
+    <string>Save</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+S</string>
@@ -262,7 +262,7 @@
      <normaloff>:/fugue/fugue-icons/layer-rotate.png</normaloff>:/fugue/fugue-icons/layer-rotate.png</iconset>
    </property>
    <property name="text">
-    <string>Obrót o 90° w prawo</string>
+    <string>Rotate 90° right</string>
    </property>
    <property name="toolTip">
     <string>Obrót o 90° w prawo</string>
@@ -277,7 +277,7 @@
      <normaloff>:/fugue/fugue-icons/layer-rotate-left.png</normaloff>:/fugue/fugue-icons/layer-rotate-left.png</iconset>
    </property>
    <property name="text">
-    <string>Obrót o 90° w lewo</string>
+    <string>Rotate 90° left</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+G</string>
@@ -289,7 +289,7 @@
      <normaloff>:/fugue/fugue-icons/arrow-curve-180-left.png</normaloff>:/fugue/fugue-icons/arrow-curve-180-left.png</iconset>
    </property>
    <property name="text">
-    <string>Cofnij</string>
+    <string>Undo</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Z</string>
@@ -301,7 +301,7 @@
      <normaloff>:/fugue/fugue-icons/arrow-curve.png</normaloff>:/fugue/fugue-icons/arrow-curve.png</iconset>
    </property>
    <property name="text">
-    <string>Powtórz</string>
+    <string>Redo</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Y</string>
@@ -313,7 +313,7 @@
      <normaloff>:/fugue/fugue-icons/information.png</normaloff>:/fugue/fugue-icons/information.png</iconset>
    </property>
    <property name="text">
-    <string>O programie...</string>
+    <string>About...</string>
    </property>
   </action>
   <action name="actionCrop">
@@ -322,7 +322,7 @@
      <normaloff>:/fugue/fugue-icons/image-crop.png</normaloff>:/fugue/fugue-icons/image-crop.png</iconset>
    </property>
    <property name="text">
-    <string>Przytnij do zaznaczenia</string>
+    <string>Crop to selection</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+X</string>
@@ -334,7 +334,7 @@
      <normaloff>:/fugue/fugue-icons/image-resize.png</normaloff>:/fugue/fugue-icons/image-resize.png</iconset>
    </property>
    <property name="text">
-    <string>Zmień rozmiar...</string>
+    <string>Resize...</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+R</string>
@@ -349,7 +349,7 @@
      <normaloff>:/fugue/fugue-icons/application-resize-full.png</normaloff>:/fugue/fugue-icons/application-resize-full.png</iconset>
    </property>
    <property name="text">
-    <string>Pełny ekran</string>
+    <string>Full screen</string>
    </property>
    <property name="shortcut">
     <string>Alt+Return</string>
@@ -361,7 +361,7 @@
      <normaloff>:/fugue/fugue-icons/color_gray.png</normaloff>:/fugue/fugue-icons/color_gray.png</iconset>
    </property>
    <property name="text">
-    <string>Konwertuj do skali szarości</string>
+    <string>Convert to greyscale</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+G</string>
