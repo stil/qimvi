@@ -36,3 +36,8 @@ Makefile*
 # QtCtreator CMake
 CMakeLists.txt.user
 
+*.suo
+/x64/
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
