@@ -9,13 +9,13 @@ Following features are provided:
 
 qimvi is MIT licensed.
 
-##Demo animations
+## Demo animations
 
-###Crop to selection
+### Crop to selection
 ![crop demo](doc/demo_crop.gif)
 
-###Convert to greyscale
+### Convert to greyscale
 ![greyscale demo](doc/demo_grey.gif)
 
-###Resize
+### Resize
 ![resize demo](doc/demo_resize.gif)
